@@ -7,11 +7,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
+    
+    
 }
 
 .promo {
@@ -81,8 +84,9 @@ body {
 
 }
 
-button :hover {
-    color: red;
+button:hover {
+    color: aliceblue;
+    border:2px solid #EFEFEF;
 }
 
 .intenensive {
@@ -117,4 +121,112 @@ button :hover {
     font-size: 23px;
     font-weight: 400;
     
+}
+
+.intenensive_box {
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.intenensive_col{
+    width: 342px;
+}
+.intenensive_col p{
+    font-weight: 300;
+    margin-top: 28px;
+    font-size: 15px;
+}
+.about{
+    padding: 108px 0 78px ;
+    background:url(../img/woman_bg.png) no-repeat left  bottom ;
+
+    
+}
+.about_content{
+    padding-left: 388px;
+
+}
+.about_content h2{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 30px;
+    color:#299CBD;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+
+
+}
+.about_content p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+
+}
+.skills{
+    background-image: url(../img/ff.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 1920px;
+    height: 447px;
+    text-align: center;
+    padding: 80px 0 70px;
+}
+.skills .container h2{
+    color: #EFEFEF;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.box{
+    height:1920px;
+    
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+.skills_box{
+    width: 210px;
+    height: 190px;
+}
+.element{
+    height:118px;
+    width: 118px;
+    margin-top: 40px;
+    background-color: #B4E2FF;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.element div{
+    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 67px;
+    height: 48px;
+
+
+}
+.box p{
+    color: #EFEFEF;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: 20px;
+    
+   
 }
