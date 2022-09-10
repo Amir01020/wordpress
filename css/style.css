@@ -209,7 +209,10 @@ button:hover {
 
 
 }
-
+.element:hover{
+    border: 2px solid #000;
+    background-color: #4face6;
+}
 .element div{
     
     background-repeat: no-repeat;
