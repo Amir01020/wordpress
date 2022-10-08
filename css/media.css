@@ -1,0 +1,31 @@
+@media(max-width:1200px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+        
+    }
+    .promo{
+        height: auto;
+        padding: 50px 0;
+    }
+    .intensive_box{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 50px;
+
+    }
+    .about{
+        background: none;
+    }
+    .about_content{
+        padding: 0;
+    }
+    .skills{
+        height: auto;
+    }
+    .skills_box{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 50px;
+    }
+}
